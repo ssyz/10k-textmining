@@ -2,6 +2,8 @@
 
 These are programs to count the number of occurences of key words from a large number of documents and store the information in a csv file.
 
+Steps to do it yourself:
+
 1. Create new folder for tokenized text "tokenized_#"
 
 2. Run "tokenize.py"
@@ -13,3 +15,5 @@ These are programs to count the number of occurences of key words from a large n
 4. Run "generatereport.py"
 	- Change rootdir to ".../tokenized_#"
 	- Change to open('report_#.csv', 'wb')
+
+*Note you will have to change the directories to your own for each variable.
